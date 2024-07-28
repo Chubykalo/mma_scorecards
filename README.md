@@ -1,6 +1,6 @@
 # mma_scorecards
 
-Macros que sirven para rellenar e imprimir planillas de mma de la Federación Española de lucha en base a una lista de combates.
+Macros que sirven para rellenar e imprimir planillas de mma de la Federación Española de Lucha en base a una lista de combates.
 
 ## Como usar
 
@@ -11,7 +11,7 @@ En el fichero Scorecard_2024.xlsm se encontrarán dos macros:
 "PrintAllFilesInFolder" se encarga de imprimir todas las planillas resultantes que han sido generadas por ProcessData.
 
 Primero, edita Fightcard.xlsx con los combates apropiados para su evento.
-Scorecard_2024.xlsm está preconfigurada para la impresión adecuada de las planillas para su uso en el evento. Se puede realizar ajustes en el caso de que sea necesario. 
+Scorecard_2024.xlsm está preconfigurada para la impresión adecuada de las planillas para su uso en el evento. Se pueden realizar ajustes en el caso de que sea necesario. 
 
 Para lanzar las macros, abre Scorecard_2024.xlsm -> Desarrollador -> Macros
 Escoge ProcessData y ejecuta la macro. Esto creará la carpeta Scorecard_Output y generará un fichero excel por cada combate listado en Fightcard. Puedes comprobar el resultado antes de ejecutar la siguiente macro.
